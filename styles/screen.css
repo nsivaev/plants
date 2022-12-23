@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1250px) {
     /*header*/
     .header_wrapper {
-        padding: 36px 110px 42px;
+        padding: 36px 50px 42px;
     }
     /*header*/
 
@@ -28,7 +28,7 @@
     }
 
     .home_wrapper {
-        padding: 0 110px 70px;
+        padding: 0 50px 70px;
     }
 
     .home_wrapper img {
@@ -64,11 +64,15 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 0 110px 96px;
+        padding: 0 50px 96px;
     }
     /*about_us*/
 
     /*service*/
+    .service {
+        padding: 0 50px 0;
+    }
+
     .service__header {
         flex-direction: column;
         align-items: normal;
@@ -86,7 +90,7 @@
     }
 
     .service__wrapper_main {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
         padding-top: 40px;
         padding-bottom: 30px;
@@ -112,7 +116,7 @@
 
     /*price*/
     .price__wrapper {
-        padding-bottom: 160px;
+        padding: 40px 50px 160px;
     }
 
     .price__left_pos h1 {
@@ -125,6 +129,10 @@
         padding-top: 100px;
     }
 
+    .price_right__wrap button {
+        position: absolute;
+    }
+
     .price_right_pos h1 {
         font-size: 25px;
         line-height: 35px;
@@ -132,7 +140,6 @@
     }
 
     .price_right_pos img {
-        padding-top: 86px;
     }
     /*price*/
 
@@ -141,6 +148,8 @@
         flex-direction: column-reverse;
         align-items: center;
         padding-top: 96px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .contacts__bg {
@@ -161,7 +170,7 @@
     /*footer*/
     footer {
         flex-direction: column;
-        padding: 19px 110px;
+        padding: 19px 50px;
     }
 
     footer h3 {
@@ -171,4 +180,8 @@
     .links__img {
         padding-top: 16px;
     }
+}
+
+@media only screen and (max-width: 835px) {
+
 }

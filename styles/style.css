@@ -369,24 +369,34 @@ details > summary::marker {
 }
 
 .price_right_pos button {
+    position: absolute;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     color: #E06733;
-    right: 110px;
-    position: absolute;
+    float: right;
     padding: 11px 33px;
     border: 2px solid #E06733;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
 
+.price_right_pos button:hover {
+    background: #E06733;
+    color: #fff;
+}
+
+.price_right__wrap {
+    display: flex;
+    float: right;
+}
+
 .price_right_pos img {
-    position: absolute;
-    right: 110px;
+    margin-top: 90px;
+    float: right;
+    display: flex;
     width: 152px;
     height: 175px;
-    padding-top: 89px;
 }
 /*price*/
 
@@ -464,5 +474,10 @@ footer .links__img a {
 
 footer .links__img a:last-child {
     padding-right: 0;
+}
+
+.links__img {
+    align-items: center;
+    display: flex;
 }
 /*footer*/
