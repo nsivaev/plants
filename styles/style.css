@@ -44,6 +44,9 @@ nav ul li a {
     font-size: 16px;
     line-height: 50px;
 }
+nav ul li a:hover {
+    color: #E06733;
+}
 
 nav ul li:last-child a:last-child {
     padding-right: 0;
@@ -81,6 +84,7 @@ nav ul li:last-child a:last-child {
 }
 
 .home__right_text_info p {
+    color: #636060;
     padding-top: 13px;
     font-weight: 400;
     font-size: 20px;
@@ -93,6 +97,7 @@ nav ul li:last-child a:last-child {
     border: 2px solid #E06733;
     border-radius: 10px;
     background-color: #EDF2EC;
+    color: black;
 }
 
 .home__right_text_info button:hover {

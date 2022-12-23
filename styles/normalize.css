@@ -80,6 +80,7 @@ pre {
 
 a {
   background-color: transparent;
+  transition: 0.3s;
 }
 
 /**

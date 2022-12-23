@@ -300,7 +300,7 @@
      /*price*/
     .price__wrapper {
         display: block;
-        padding: 17px 50px 160px;
+        padding: 17px 50px 40px;
     }
 
     .price__left_pos h1 {
@@ -357,17 +357,81 @@
     .price_right_pos h1 {
         font-size: 20px;
         text-align: center;
+        padding-bottom: 20px;
     }
 
     .price_right_pos {
+        display: grid;
         padding-top: 19px;
-        display: block;
-        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    label {
+    .price_right__wrap {
+        justify-content: center;
+    }
+
+    .price_right__wrap button {
+        justify-content: center;
+        position: relative;
+        font-size: 15px;
+        padding: 3px 25px;
+    }
+
+    .price_right__wrap img {
         display: none;
     }
-    /*fix*/
+    /*price*/
+
+    /*contacts*/
+    .contacts {
+        padding: 27px 25px 0;
+    }
+
+    .contacts__text h2 {
+        font-size: 25px;
+        position: relative;
+        top: 0;
+        text-align: center;
+    }
+
+    .contacts__text {
+        padding-bottom: 83px;
+    }
+
+
+
+    label {
+        display: block;
+        width: auto;
+        height: 50px;
+    }
+
+    .contacts__select select {
+        width: auto;
+        margin: 0;
+        padding-left: 14px;
+        padding-right: 86px;
+    }
+
+    .contacts__bg img {
+        width: 100px;
+        height: 124px;
+        padding-top: 132px;
+    }
+
+    /*footer*/
+    footer {
+        padding: 10px 25px;
+    }
+
+    .links__img {
+        padding-top: 2px;
+        gap: 8px;
+    }
+
+    .price_right_pos h1 span {
+        color: #000;
+    }
 
 }
