@@ -216,6 +216,12 @@ nav ul li:last-child a:last-child {
 .first_section_cards {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.second_section_cards {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card__info {
