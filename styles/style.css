@@ -14,6 +14,10 @@ header {
     justify-content: space-between;
 }
 
+.header_wrapper .menu-btn {
+    display: none;
+}
+
 .logo_plants {
     display: flex;
     align-items: center;
