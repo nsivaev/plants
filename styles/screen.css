@@ -195,10 +195,20 @@
     }
 
     header .menu nav {
-        display: none;
     }
 
     /*burger-menu*/
+
+    /*styles*/
+    nav {
+        display: flex;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
 
     .header_wrapper .menu-btn {
         display: block;
@@ -232,7 +242,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
         padding: 15px;
         background: #FFEFBA;
         transform: translateY(-100%);
