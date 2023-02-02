@@ -242,9 +242,9 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 50%;
+        height: 100%;
         padding: 15px;
-        background: #FFEFBA;
+        background: rgba(237, 242, 236, 0.95);
         transform: translateY(-100%);
         transition: transform 0.5s;
     }
