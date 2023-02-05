@@ -496,3 +496,23 @@ footer .links__img a:last-child {
     display: flex;
 }
 /*footer*/
+
+/*JS*/
+.selected {
+    filter: blur(4px);
+    transition: 0.3s;
+}
+
+.planting_card {
+    transition: 0.3s;
+}
+.garden_card {
+    transition: 0.3s;
+}
+.lawn_card {
+    transition: 0.3s;
+}
+
+summary {
+    cursor: none;
+}
