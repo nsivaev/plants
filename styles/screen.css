@@ -1,10 +1,35 @@
+@media only screen and (min-width: 1251px) {
+    .main-contacts__city-menu {
+    padding-right: 110px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .main-contacts__city-menu {
+        padding: 0;
+    }
+}
+@media (max-width: 767px) {
+    .main-contacts__container {
+        background: url(../images/contacts-img/contact_woman1.png);
+        background-size: 0 auto;
+        padding-right: 0;
+    }
+    .main-contacts__block-city {
+        background-color: #EDF2EC;
+        margin: 20px 12px 20px 6px;
+        padding: 22px 0 0 34px;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
     /*header*/
     .header_wrapper {
         padding: 36px 50px 42px;
     }
     /*header*/
-
+    .main-contacts__city-menu {
+        padding-right: 50px;
+    }
     /*home*/
     .home_wrapper {
         flex-direction: row-reverse;
@@ -197,6 +222,9 @@
     header .menu nav {
     }
 
+    .main-contacts__city-menu {
+        padding-right: 0;
+    }
     /*burger-menu*/
 
     /*styles*/
@@ -322,6 +350,11 @@
      /*about_us*/
 
      /*service*/
+
+    .main-contacts__city-menu {
+        padding-right: 0;
+    }
+
     .service {
         padding: 0 25px 0;
     }

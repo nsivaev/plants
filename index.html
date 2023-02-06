@@ -169,24 +169,69 @@
         </div>
     </section>
 
-    <section class="contacts" id="contacts">
-        <div class="contacts__bg">
-            <img src="./images/contacts-img/contact_woman1.png" alt="woman">
-        </div>
-        <div class="contacts__wrapper">
-            <div class="contacts__text">
-                <h2>Contact us</h2>
-            </div>
-            <div class="contacts__select">
-                <label>
-                    <select name="select">
-                        <option selected="selected">City</option>
-                        <option>Canandaigua, NY</option>
-                        <option>New York City</option>
-                        <option>Yonkers, NY</option>
-                        <option>Sherrill, NY</option>
-                    </select>
-                </label>
+    <section id="contacts" class="page__main-contacts page__section_5 main-contacts">
+        <div class="main-contacts__container _container">
+            <h2 class="main-contacts__title">Contact us</h2>
+            <div class="main-contacts__body">
+                <div class="main-contacts__city-menu">
+                    <div class="main-contacts__form-group main-dropdown">
+                        <div class="main-dropdown__button main-dropdown__button--active">
+                            <div class="main-dropdown__button__text">Canandaigua, NY</div>
+                            <div class="main-dropdown__image"></div>
+                        </div>
+                        <ul class="main-dropdown__list">
+                            <li class="main-dropdown__list-item" data-value="canandaigua">Canandaigua, NY</li>
+                            <li class="main-dropdown__list-item" data-value="newyork">New York City</li>
+                            <li class="main-dropdown__list-item" data-value="yonkers">Yonkers, NY</li>
+                            <li class="main-dropdown__list-item" data-value="sherrill">Sherrill, NY</li>
+                        </ul>
+                        <label>
+                            <input type="text" name="select-category" value="" class="main-dropdown__input-hidden">
+                        </label>
+
+                        <div class="main-contacts__block-city block-city main-contacts__block-city--active">
+                            <div class="block-city__city-info">
+                                <div class="block-city__title-list">
+                                    <div class="block-city__title-item">City:</div>
+                                    <div class="block-city__title-item">Phone:</div>
+                                    <div class="block-city__title-item">Office adress:</div>
+                                </div>
+                                <div id="canandaigua" class="block-city__body block-city__body--active">
+                                    <div class="block-city__text block-city__text-city">Canandaigua, NY</div>
+                                    <div class="block-city__text block-city__text-phone">+1	585	393 0001</div>
+                                    <div class="block-city__text block-city__text-adress">151 Charlotte Street</div>
+                                    <div class="block-city__button">
+                                        <a href="tel:+15853930001">Call us</a>
+                                    </div>
+                                </div>
+                                <div id="newyork" class="block-city__body">
+                                    <div class="block-city__text block-city__text-city">New York City</div>
+                                    <div class="block-city__text block-city__text-phone">+1	212	456 0002</div>
+                                    <div class="block-city__text block-city__text-adress">9 East 91st Street</div>
+                                    <div class="block-city__button">
+                                        <a href="tel:+12124560002">Call us</a>
+                                    </div>
+                                </div>
+                                <div id="yonkers" class="block-city__body">
+                                    <div class="block-city__text block-city__text-city">Yonkers, NY</div>
+                                    <div class="block-city__text block-city__text-phone">+1	914	678 0003</div>
+                                    <div class="block-city__text block-city__text-adress">511 Warburton Ave</div>
+                                    <div class="block-city__button">
+                                        <a href="tel:+19146780003">Call us</a>
+                                    </div>
+                                </div>
+                                <div id="sherrill" class="block-city__body">
+                                    <div class="block-city__text block-city__text-city">Sherrill, NY</div>
+                                    <div class="block-city__text block-city__text-phone">+1	315	908 0004</div>
+                                    <div class="block-city__text block-city__text-adress">14 WEST Noyes BLVD</div>
+                                    <div class="block-city__button">
+                                        <a href="tel:+13159080004">Call us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
