@@ -52,7 +52,7 @@ lawnBtn.addEventListener('click', function () {
     });
 });
 
-//===contacts===
+//contacts
 
 const dropDownBtn = document.querySelector('.main-dropdown__button');
 const dropDownList = document.querySelector('.main-dropdown__list');

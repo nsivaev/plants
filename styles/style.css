@@ -785,7 +785,7 @@ footer .links__img a:last-child {
 .block-city__button a {
     padding-bottom: 7px;
     width: 122px;
-    height: 26px;
+    height: 36px;
     border: 1px solid #E06733;
     border-radius: 5px;
     text-align: center;
@@ -819,7 +819,10 @@ footer .links__img a:last-child {
 .lawn_card {
     transition: 0.3s;
 }
-
+.service__buttons._active button {
+    background: #E06733;
+    color: #FFFFFF;
+}
 summary {
     cursor: none;
 }
